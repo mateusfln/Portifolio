@@ -1,0 +1,8 @@
+#!/bin/bash
+valor=$(cut -d":" -f3 /etc/password)
+for $valor
+do
+[[ $i -le 1000 && $i -ge 2000 ]]
+done
+echo os usuarios nao humanos sao:
+echo $valor
