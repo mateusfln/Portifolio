@@ -9,7 +9,6 @@
 
 
 
-
-###logica_computacional
+### logica_computacional
  
 
