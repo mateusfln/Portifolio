@@ -4,12 +4,16 @@
 
 ### Fundamentos_de_Ti
 [link de acesso](fundamentos_de_ti/atividade1.sh)
+[link de acesso](fundamentos_de_ti/atividade2.sh)
+[link de acesso](fundamentos_de_ti/atividade3.sh)
 
 
 
 
 
 ### logica_computacional
-[link de acesso]()
+[link de acesso](logica_computacional/exemplos/atividade1.sh)
+[link de acesso](logica_computacional/exemplos/atividade2.sh)
+[link de acesso](logica_computacional/exemplos/atividade3.sh)
 
 
