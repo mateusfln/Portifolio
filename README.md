@@ -7,16 +7,16 @@
 Atuar como jovem aprendiz para obter experiência no mercado de trabalho
 
 # FORMAÇÃO ACADÊMICA
-Ensino Médio Integrado Técnico em Desenvolvimento de Sistemas 
+- Ensino Médio Integrado Técnico em Desenvolvimento de Sistemas 
 SENAI São José
 2021 - Cursando
-Ensino Fundamental e Médio (primeiro ano)
-Colégio Paulo Freire
+- Ensino Fundamental e Médio (primeiro ano)
+  Colégio Paulo Freire
 2015 - 2020
 
 # IDIOMAS
-Inglês (intermediário)
-Espanhol (intermediário)
+- Inglês (intermediário)
+- Espanhol (intermediário)
 
 
 ### Fundamentos_de_Ti
