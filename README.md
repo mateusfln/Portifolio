@@ -18,7 +18,7 @@ SENAI São José
 - Inglês (intermediário)
 - Espanhol (intermediário)
 
-
+## PORTFÓLIO SEGUNDO TRIMESTRE
 ### Fundamentos_de_Ti
 - [link de acesso](fundamentos_de_ti/atividade1.sh)
 - [link de acesso](fundamentos_de_ti/atividade2.sh)
@@ -32,5 +32,7 @@ SENAI São José
 - [link de acesso](logica_computacional/exemplos/atividade1.sh)
 - [link de acesso](logica_computacional/exemplos/atividade2.sh)
 - [link de acesso](logica_computacional/exemplos/atividade3.sh)
+
+## PORTFÓLIO TERCEIRO TRIMESTRE
 
 
