@@ -35,6 +35,6 @@ SENAI São José
 
 ## PORTFÓLIO TERCEIRO TRIMESTRE
 ### Lógica Computacional
-- [Cadastro Petshop](Logica_Computacional)
+- [Cadastro Petshop](Logica_computacional)
 
 
