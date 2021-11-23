@@ -34,5 +34,6 @@ SENAI São José
 - [link de acesso](logica_computacional/exemplos/atividade3.sh)
 
 ## PORTFÓLIO TERCEIRO TRIMESTRE
+### Lógica Computacional
 
 
