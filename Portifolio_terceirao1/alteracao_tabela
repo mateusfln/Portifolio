@@ -1,0 +1,117 @@
+create table estoque(
+estampa boolean,
+tamroupa varchar,
+idmarca int,
+foreign key(idmarca) references marcas,
+qtd int,
+cor varchar,
+preco decimal(5,2),
+tecido varchar,
+cod int primary key);
+insert into estoque
+	(estampa, tamroupa, idmarca, qtd, cor, preco, tecido, cod)
+	values
+	(true, 'g', 1, 2, 'vermelho', 500.00, 'poliester', 10),
+	(false, 'p', 2, 10, 'azul', 50.00, 'algodao', 11),
+	(false, 'pp', 3, 3, 'rosa', 5.00, 'algodao', 12),
+	(true, 'mm', 4, 6, 'verde', 456.00, 'poliester', 13);
+
+
+select * from estoque
+
+create table funcionarios(
+nome varchar,
+cod int primary key,
+endereco varchar,
+telefone varchar,
+crghoraria int,
+salario decimal,
+funcao varchar);
+
+insert into funcionarios
+(nome, cod, endereco, telefone, crghoraria, salario, funcao)
+values
+('greg refley', 1, 'rua badsa', '48 998566398', 40, 1000, 'técnico'),
+('marcia', 2, 'rua gasr', '48 998011543', 20, 2000, 'gerente'),
+('enzo', 3, 'rua dsaer', '48 997422156', 80, 3000, 'faxineiro'),
+('cesar', 4, 'rua yret', '48 578344156', 5, 4000, 'suggardaddy');
+select * from funcionarios
+
+create table clientes(
+cod int primary key,
+nome varchar,
+cpf varchar,
+telefone varchar,
+email varchar,
+cep varchar);
+
+insert into clientes
+(cod, nome, cpf, telefone, email, cep)
+values
+(1, 'mateus', '10074014943', '48997522147', 'mateusfln@gmail.com', '88102080'),
+(2, 'joana', '58874698521', '48998533624', 'joana@gmail.com', '88102076'),
+(3, 'artur', '78896541236', '48998100252', 'artur@gmail.com', '88107030'),
+(4, 'jade', '80024569874', '48996300242', 'jadepicon@gmail.com', '22504789');
+
+select * from clientes
+
+create table marcas(
+nome varchar,
+representante varchar,
+cnpj varchar,
+cod int primary key,
+telefonerep varchar);
+
+insert into marcas
+(nome, representante, cnpj, cod, telefonerep)
+values
+('louisvitton', 'putiferolegal', '15615616', 1, '32288469'),
+('balenciaga', 'enzofudido', '12312345', 2, '96632541'),
+('gucci', 'gregon', '789789456', 3, '96325417'),
+('fortnite', 'lohnzinhoaynon', '123456789', 4, '96321458');
+
+
+select * from marcas
+
+create table representantes(
+telrepresentante varchar,
+enderecorepresentante varchar,
+nomerepresentante varchar,
+idrepresentante int);
+
+insert into representantes
+(telrepresentante, enderecorepresentante, nomerepresentante, idrepresentante)
+values
+('48999568742', 'rua jao porifero da silva pinto', 'carlos', 1),
+('48999159842', 'rua jao', 'marina', 2),
+('48999456142', 'rua almeida junior', 'igor', 3),
+('48999111142', 'rua chechelandia', 'pedro', 4);
+
+
+select * from representantes
+
+create table compra(
+codcliente int,
+foreign key(codcliente)references clientes,
+data_compra date,
+codroupa int,
+foreign key (codroupa)references estoque);
+
+insert into compra
+(codcliente, data_compra, codroupa)
+values
+(1, '2020-02-01', 10),
+(2, '2020-03-02', 11),
+(3, '2020-04-02', 13),
+(4, '2020-05-02', 12);
+
+select compra.data_compra, clientes.nome, clientes.telefone, estoque.idmarca, estoque.preco from compra
+inner join clientes on compra.codcliente = clientes.cod
+inner join estoque on compra.codroupa = estoque.cod;
+select * from estoque
+
+alter table compra rename column data_compra to datacompra -- mudei para retirar o '_' pois nao usei em mais nada no codigo
+alter table compra add column cartao boolean --adicionei forma de pagamento cartao 
+alter table compra add column dinheiro boolean --adicionei forma de pagamento dinheiro 
+alter table compra add column cheque boolean --adicionei forma de pagamento cheque 
+alter table compra drop column cheque -- removi a forma de pagamento cheque pois esta muito ultrapassada
