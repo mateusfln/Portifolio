@@ -39,8 +39,9 @@ SENAI São José
 
 ## PORTFOLIO TERCEIRAO PRIMEIRO TRIMESTE
 ### Tres atividades
+
 -[Função](Portifolio_terceirao1/funcao.sql) <br>
--
--
+-[Função](Portifolio_terceirao1/funcao.sql) <br>
+-[Função](Portifolio_terceirao1/funcao.sql) <br>
 
 
