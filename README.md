@@ -37,4 +37,10 @@ SENAI São José
 ### Lógica Computacional
 - [Cadastro Petshop](Logica_computacional)
 
+## PORTFOLIO TERCEIRAO PRIMEIRO TRIMESTE
+### Tres atividades
+-
+-
+-
+
 
