@@ -41,7 +41,7 @@ SENAI São José
 ### Tres atividades
 
 -[Função](Portifolio_terceirao1/funcao.sql) <br>
--[Função](Portifolio_terceirao1/funcao.sql) <br>
--[Função](Portifolio_terceirao1/funcao.sql) <br>
+-[Zoologico](Portifolio_terceirao1/zoologico.sql) <br>
+-[Alter_table](Portifolio_terceirao1/alterar_tabela.sql) <br>
 
 
