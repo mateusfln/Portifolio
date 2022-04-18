@@ -39,7 +39,7 @@ SENAI São José
 
 ## PORTFOLIO TERCEIRAO PRIMEIRO TRIMESTE
 ### Tres atividades
--[link de acesso](Portofolio_terceirao1//atividade3.sh)
+-[link de acesso](Portofolio_terceirao1//funcao.sql)
 -
 -
 
