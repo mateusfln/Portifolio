@@ -42,6 +42,6 @@ SENAI São José
 
 -[Função](Portifolio_terceirao1/funcao.sql) <br>
 -[Zoologico](Portifolio_terceirao1/zoologico.sql) <br>
--[Alter_table](Portifolio_terceirao1/alteracao_tabela.sql) <br>
+-[AlterTable](Portifolio_terceirao1/alteracao_tabela) <br>
 
 
