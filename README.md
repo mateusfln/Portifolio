@@ -44,4 +44,8 @@ SENAI São José
 -[Zoologico](Portifolio_terceirao1/zoologico.sql) <br>
 -[AlterTable](Portifolio_terceirao1/alteracao_tabela) <br>
 
+## AUTORIA
+### Projetinho
+
+
 
