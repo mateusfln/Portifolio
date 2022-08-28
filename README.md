@@ -53,5 +53,11 @@ SENAI São José
 ### Uma atividade
 -[Unsmoke](https://github.com/lucasmalfatti/Unsmoke) <br>
 
+##AUTORIA
+###Figma PetShop
+-[Petshop(Conceito)](https://www.figma.com/file/wDYjInM9QTgzRrd6iT1pcp/Untitled?node-id=0%3A1) <br>
+
+
+
 
 
