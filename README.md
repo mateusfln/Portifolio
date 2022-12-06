@@ -58,12 +58,14 @@ SENAI São José
 -[Petshop(Conceito)](https://www.figma.com/file/wDYjInM9QTgzRrd6iT1pcp/Untitled?node-id=0%3A1) <br>
 
 ## PORTFOLIO TERCEIRAO TERCEIRO TRIMESTE
-### Uma atividade
--[Ihelp](https://github.com/mateusfln/Ihelp) <br>
+### Duas atividades
 
-## AUTORIA
+### Ihelp
+-[Ihelp](https://github.com/mateusfln/Ihelp) <br>
 ### Urna
 -[Urna](https://github.com/mateusfln/Portifolio/blob/main/Portifolio_terceirao1/Urna.zip) <br>
+## AUTORIA
+
 
 
 
